@@ -103,14 +103,14 @@ client.on('message', async msg => { // eslint-disable-line
                 var video = await youtube.getVideo(url);
             }catch(error){
                 try{
-                    var videos = await youtube.searchVideos(searchString, 10);
+                    var videos = await youtube.searchVideos(searchString, 1);
                     let index = 0;
                     var embedqueue5 = new Discord.RichEmbed()
                         .setTitle(`Song Play list`)
                         .setDescription(`
 ${videos.map(video2 => `${++index}- ${video2.title}`).join('\n')}
 
-Please enter a number between 1-10 on,a Song select!`)
+Please enter a number between 1 on,a Song select!`)
                 .setColor(['#f9fcfc'])
                     msg.channel.sendEmbed(embedqueue5);
                     
