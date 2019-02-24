@@ -1,0 +1,7 @@
+?token=NTQ5MTIzMjc2NDcxOTI2Nzg5.D1Pddg.Sp6nsDqQzrNqP7eu62I3P0KmckQ
+owner=537576917642117121 
+prefix=1
+game=1help
+stayinchannel=true
+songinstatus=true
+token=NTQ5MTIzMjc2NDcxOTI2Nzg5.D1Pddg.Sp6nsDqQzrNqP7eu62I3P0KmckQ
